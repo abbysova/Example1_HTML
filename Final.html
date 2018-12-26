@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" /> 
+    <title>Sports Quiz</title> <!--Webpage title-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script> <!--Jquery Script by http://jquery.org-->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> <!--Jquery Script by http://jquery.org-->
+</head>
+
+<body style="background-color:powderblue;">
+    <div class="sport">
+        <font face="Comic Sans MS" color="navy">
+            <!--Creates class called sport-->
+            <h1>Sports Quiz</h1> <!--Main Quiz Title-->
+            <img src="http://students.css.edu/asova/sportImage.jpg" alt="sportImage" height="200" width="400" align="middle" /> <!--Inserts image that I found at https://www.bls.gov/spotlight/2017/sports-and-exercise/home.htm-->
+            <form id="questions">
+                <!--Creates form called question-->
+
+                <h2>Hockey</h2> <!--Heading for hockey section-->
+                <fieldset>
+                    <!--Creates 1st Question: 1st Hockey Question -->
+                    <legend>Who is the current NCAA-D1 Men's Hockey Champion(2018)?</legend> <!--Displays question-->
+
+                    <input type="radio" name="group1" id="radio-1" value="0" /> <!--Creates radio button and charastics of the button-->
+                    <label for="radio-1">St. Cloud State University</label> <!--Creates Label for the answer that is associates with each radio-->
+
+                    <input type="radio" name="group1" id="radio-2" value="0" /> <!--Radio buttons with a value of 0 are used to signify that the answer is not correct-->
+                    <label for="radio-2">University of North Dakota</label>
+
+                    <input type="radio" name="group1" id="radio-3" value="1" /> <!--Radio buttons with a value of 1 are used to signify the correct answer-->
+                    <label for="radio-3">University of Minnesota-Duluth</label>
+
+                    <input type="radio" name="group1" id="radio-4" value="0" />
+                    <label for="radio-4">Minnesota State University-Mankato</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <!--Creates 2nd Question: 2nd Hockey Question-->
+                    <legend>What active player has the most career points in the NHL? </legend>
+
+                    <input type="radio" name="group2" id="radio-1" value="1" />
+                    <label for="radio-1">Joe Thornton</label>
+
+                    <input type="radio" name="group2" id="radio-2" value="0" />
+                    <label for="radio-2">Eric Staal</label>
+
+                    <input type="radio" name="group2" id="radio-3" value="0" />
+                    <label for="radio-3">Patrick Kane</label>
+
+                    <input type="radio" name="group2" id="radio-4" value="0" />
+                    <label for="radio-4">Sidney Crosby</label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <!--Creates 3rd Question: 3rd Hockey Question-->
+                    <legend>What NHL team has never won a Stanley Cup? </legend>
+
+                    <input type="radio" name="group3" id="radio-1" value="0" />
+                    <label for="radio-1">Monteral Canadians</label>
+
+
+                    <input type="radio" name="group3" id="radio-2" value="0" />
+                    <label for="radio-2">New York Rangers</label>
+
+                    <input type="radio" name="group3" id="radio-3" value="0" />
+                    <label for="radio-3">Winnepeg Jets</label>
+
+                    <input type="radio" name="group3" id="radio-4" value="1" />
+                    <label for="radio-4">Minnesota Wild</label>
+
+                </fieldset>
+
+                <img src="http://students.css.edu/asova/hockeyImage.jpg" alt="hockeyImage" height="200" width="400" align="middle" /> <!--Inserts image that I found at http://ogha.info/-->
+
+                <h2>Golf</h2> <!--Creates Golf Heading-->
+                <fieldset>
+
+                    <!--Creates 4th Question: 1st Golf Question -->
+                    <legend>What golfer is the current Masters Champion(2018) </legend>
+
+                    <input type="radio" name="group4" id="radio-1" value="0" />
+                    <label for="radio-1">Rickie Foler</label>
+
+                    <input type="radio" name="group4" id="radio-2" value="0" />
+                    <label for="radio-2">Jordan Spieth</label>
+
+                    <input type="radio" name="group4" id="radio-3" value="0" />
+                    <label for="radio-3">Dustin Johnson</label>
+
+                    <input type="radio" name="group4" id="radio-4" value="1" />
+                    <label for="radio-4">Patrick Reed</label>
+
+                </fieldset>
+                <fieldset>
+
+                    <!--Creates 5th Question: 2nd Golf Question-->
+                    <legend>What was Arnold Palmer's nickname?</legend>
+
+                    <input type="radio" name="group5" id="radio-1" value="0" />
+                    <label for="radio-1">Ice Tea</label>
+
+                    <input type="radio" name="group5" id="radio-2" value="1" />
+                    <label for="radio-2">The King</label>
+
+                    <input type="radio" name="group5" id="radio-3" value="0" />
+                    <label for="radio-3">Pittsburgh</label>
+
+                    <input type="radio" name="group5" id="radio-4" value="0" />
+                    <label for="radio-4">Senior Golfer</label>
+
+                </fieldset>
+                <fieldset>
+
+                    <!--Creates 6th Question: 3rd Golf Question-->
+                    <legend>What PGA tournament was held at Hazeltine National Golf Club in 2016? </legend>
+
+                    <input type="radio" name="group6" id="radio-1" value="0" />
+                    <label for="radio-1">Sentry Tournament</label>
+
+                    <input type="radio" name="group6" id="radio-2" value="0" />
+                    <label for="radio-2">Gensis Open</label>
+
+                    <input type="radio" name="group6" id="radio-3" value="0" />
+                    <label for="radio-3">Masters Tournament</label>
+
+                    <input type="radio" name="group6" id="radio-4" value="1" />
+                    <label for="radio-4">Ryder Cup</label>
+
+                </fieldset>
+
+                <img src="http://students.css.edu/asova/golfImage.jpg" alt="golfImage" height="200" width="400" align="middle" /> <!--Inserts image that I found at http://www.warrenpointgolf.com/-->
+
+                <h2>Football</h2>
+                <fieldset>
+
+                    <!--Creates 8th Question: 1st Football Question-->
+                    <legend>Where did Kirk Cousins play college football?</legend>
+
+                    <input type="radio" name="group7" id="radio-1" value="0" />
+                    <label for="radio-1">University of Minnesota</label>
+
+                    <input type="radio" name="group7" id="radio-2" value="0" />
+                    <label for="radio-2">Clemson University</label>
+
+                    <input type="radio" name="group7" id="radio-3" value="1" />
+                    <label for="radio-3">Michigan State University</label>
+
+                    <input type="radio" name="group7" id="radio-4" value="0" />
+                    <label for="radio-4">Iowa State University</label>
+
+                </fieldset>
+                <fieldset>
+
+                    <!--Creates 8th Question: 2nd Football Question-->
+                    <legend>What midwestern university has won five-consecutive NCAA-D1 Championships between 2011-2015? </legend>
+
+                    <input type="radio" name="group8" id="radio-1" value="0" />
+                    <label for="radio-1">University of Minnesota</label>
+
+                    <input type="radio" name="group8" id="radio-2" value="1" />
+                    <label for="radio-2">North Dakota State University</label>
+
+                    <input type="radio" name="group8" id="radio-3" value="0" />
+                    <label for="radio-3">University of Wisconsin</label>
+
+                    <input type="radio" name="group8" id="radio-4" value="0" />
+                    <label for="radio-4">South Dakota State University</label>
+
+                </fieldset>
+                <fieldset>
+
+                    <!--Creates 9th Question: 3rd Football Question-->
+                    <legend>What member of the Minnesota Vikings suffered from a torn retina during the 2018 playoffs?</legend>
+
+                    <input type="radio" name="group9" id="radio-1" value="0" />
+                    <label for="radio-1">Adam Thielen</label>
+
+                    <input type="radio" name="group9" id="radio-2" value="0" />
+                    <label for="radio-2">Case Keenum</label>
+
+                    <input type="radio" name="group9" id="radio-3" value="1" />
+                    <label for="radio-3">Mike Zimmer</label>
+
+                    <input type="radio" name="group9" id="radio-4" value="0" />
+                    <label for="radio-4">Stefon Diggs</label>
+
+                </fieldset>
+
+                <img src="http://students.css.edu/asova/footballImage.jpg" alt="footballImage" height="200" width="250" align="middle" /> <!--Inserts image that I found at https://www.amazon.com/Wilson-WTF1415-PARENT-NFL-MVP-Football/dp/B00GV6J8WI-->
+
+            </form>
+        </font>
+        <button class="submit" onclick="submitClick();" type="submit">Submit</button> <!--Creates submit button and add functionality-->
+    </div>
+
+    <script>
+    function submitClick() //function to be called when submit button is clicked
+     {
+      var correct = 0;
+        for(var i = 1; i <= 45; i++) {
+        var group = document.getElementsByName('group'+i);
+            for(var j = 0; j < group.length; j++) {
+                var radio = group[j];
+                    if(radio.value == "1" && radio.checked) {
+                        correct++;
+                                    }
+                                                 }
+                                                            } //This section checks question & answer, If value of radio checked = 1, Add point to score
+        alert("You Answered " + correct + " Correctly!"); //creates alert of how many questions the user answered correctly
+     }
+    </script>
+</body>
+</html>
